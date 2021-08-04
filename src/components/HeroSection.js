@@ -3,14 +3,6 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-
 function HeroSection() {
   return (
     <div className='hero-container'>
@@ -19,7 +11,7 @@ function HeroSection() {
       <div className='hero-btns'>
         <a className='classUs' href="tel:917759995200">Get in Touch</a>
       </div>
-    </div >
+    </div>
   );
 }
 
