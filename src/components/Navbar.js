@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <a href='#home' className='navbar-logo'>
-            Get upto 15% off on all Medicines.
+            Get upto 15% off on Medicines.
           </a>
         </div>
       </nav>
